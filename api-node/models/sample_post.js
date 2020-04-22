@@ -1,7 +1,7 @@
 const db = require("../config/database");
 const Sequelize = require("sequelize");
 
-const User = db.define("user", {
+const SamplePost = db.define("sample_post", {
     content: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -15,6 +15,6 @@ const User = db.define("user", {
     //timestamps:false,
     underscored: true,
     //   freezeTableName: true,
+});
 
-
-    module.exports = User;
+module.exports = SamplePost;
