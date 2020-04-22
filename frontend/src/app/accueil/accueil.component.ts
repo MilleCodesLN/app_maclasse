@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
 
-  title = 'Ma classe';
+  // title = 'Ma classe';
   constructor() { }
 
   ngOnInit(): void {
